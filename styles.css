@@ -1,0 +1,26 @@
+.display-flex{
+    display: flex;
+}
+.color{
+    color: #3A3A3A;
+}
+
+.navbar{
+    justify-content: space-between;
+    padding: 87px 120px;
+}
+.navbar ul{
+    gap: 30px;
+    margin-top: 25px;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+}
+.navbar h1{
+    font-size: 24px;
+    font-family: "poppins" sans-serif;
+    font-weight: bold;
+}
