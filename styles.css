@@ -24,3 +24,32 @@
     font-family: "poppins" sans-serif;
     font-weight: bold;
 }
+.sec-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px;
+}
+.writing-sector h2{
+    font-size: 52px;
+    font-weight: bold;
+    font-family: "poppins" sans-serif;
+
+}
+.writing-sector p{
+    font-size: 16px;
+    font-weight: 350;
+    max-width: 505px;
+    max-height: 61px;
+}
+.writing-sector button{
+    background-color: #E02C6D;
+    color: white;
+    max-width: 196px;
+    max-height: 44px;
+    border-radius: 41px;
+    border: none;
+    padding: 10px 24px;
+}
+.img-sector{
+    background-image: url(./images/Circle\ design.svg);
+}
