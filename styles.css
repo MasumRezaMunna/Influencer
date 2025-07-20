@@ -124,3 +124,39 @@
     bottom: -935px;
     color: #E02C6D;
 }
+/* section 4 */
+.flex{
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 96px;
+    padding: 100px 165px;
+}
+.write h1{
+    font-size: 38px;
+    font-weight: bold;
+}
+.write p{
+    max-width: 501px;
+}
+.button{
+    background-color: #E02C6D;
+    color: white;
+    max-width: 196px;
+    max-height: 44px;
+    border-radius: 41px;
+    border: none;
+    padding: 10px 24px;
+}
+/* footer */
+.bg{
+    background-color: #0A0826 ;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+
+}
