@@ -53,3 +53,15 @@
 .img-sector{
     background-image: url(./images/Circle\ design.svg);
 }
+/* icon section */
+.icon{
+    max-width: 1110px;
+    max-height: 110px;
+    display: flex;
+    margin: 0 auto;
+    border: 0.1px solid skyblue;
+    width: 80%;
+    gap: 35px;
+    padding: 20px;
+    justify-content: center;
+}
