@@ -4,6 +4,9 @@
 .color{
     color: #3A3A3A;
 }
+.star{
+    color: #FB8200;
+}
 
 .navbar{
     justify-content: space-between;
@@ -64,4 +67,60 @@
     gap: 35px;
     padding: 20px;
     justify-content: center;
+}
+/* collection section */
+.sec-3{
+    margin-top: 100px;
+}
+.sec-3 h1{
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.sec-3 h5{
+    font-size: 24px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.sec-3 p{
+    font-size: 14px;
+    width: 196px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.collection{
+    background-color: #FFFFFF;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.element{
+    max-width: 329px;
+    max-height: 476px;
+    box-shadow: 1px 1px 10px;
+    border: none;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+.element img{
+    border-radius: 10px;
+}
+.see-more p{
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    width: 99px;
+    height: 24px;
+    left: 1100px;
+    right: 1px;
+    top: 2573px;
+    bottom: -935px;
+    color: #E02C6D;
 }
